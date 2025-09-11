@@ -6,5 +6,18 @@
     "signup": "إنشاء حساب",
     "welcomeMessage": "مرحباً \nبك في متجرنا",
     "getyourgroceriesinasfastasonehour": "احصل على بقالتك في غضون ساعة واحدة فقط",
-    "getstarted": "ابدأ الآن"
+    "getstarted": "ابدأ الآن",
+    "enteryouremailsandpassword": "أدخل بريدك الإلكتروني وكلمة المرور",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "donthaveanaccount": "ليس لديك حساب؟ ",
+    "signupone": "إنشاء حساب",
+    "enteryourcredentialstocontinue": "أدخل بيانات اعتمادك للمتابعة",
+    "username": "اسم المستخدم",
+    "alreadyhaveanaccount": "هل لديك حساب بالفعل؟ ",
+    "privacypolicy": "سياسة الخصوصية",
+    "and": "و ",
+    "termsofservice": "شروط الخدمة \n",
+    "bycontinuingyouagreetoour": "بالمتابعة فإنك توافق على ",
+    "comingsoon": "قريباً"
   }

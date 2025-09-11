@@ -119,7 +119,7 @@ abstract class AppLocalizations {
   /// No description provided for @signup.
   ///
   /// In en, this message translates to:
-  /// **'Sign Up'**
+  /// **'Signup'**
   String get signup;
 
   /// No description provided for @welcomeMessage.
@@ -139,6 +139,84 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Get Started'**
   String get getstarted;
+
+  /// No description provided for @enteryouremailsandpassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your emails and password'**
+  String get enteryouremailsandpassword;
+
+  /// No description provided for @email.
+  ///
+  /// In en, this message translates to:
+  /// **'Email'**
+  String get email;
+
+  /// No description provided for @password.
+  ///
+  /// In en, this message translates to:
+  /// **'Password'**
+  String get password;
+
+  /// No description provided for @donthaveanaccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Don\'t have an account? '**
+  String get donthaveanaccount;
+
+  /// No description provided for @signupone.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign Up'**
+  String get signupone;
+
+  /// No description provided for @enteryourcredentialstocontinue.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your credentials to continue'**
+  String get enteryourcredentialstocontinue;
+
+  /// No description provided for @username.
+  ///
+  /// In en, this message translates to:
+  /// **'Username'**
+  String get username;
+
+  /// No description provided for @alreadyhaveanaccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Already have an account? '**
+  String get alreadyhaveanaccount;
+
+  /// No description provided for @privacypolicy.
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy Policy'**
+  String get privacypolicy;
+
+  /// No description provided for @and.
+  ///
+  /// In en, this message translates to:
+  /// **'and '**
+  String get and;
+
+  /// No description provided for @termsofservice.
+  ///
+  /// In en, this message translates to:
+  /// **'Terms of Service \n'**
+  String get termsofservice;
+
+  /// No description provided for @bycontinuingyouagreetoour.
+  ///
+  /// In en, this message translates to:
+  /// **'By continuing you agree to our '**
+  String get bycontinuingyouagreetoour;
+
+  /// No description provided for @comingsoon.
+  ///
+  /// In en, this message translates to:
+  /// **'COMING SOON'**
+  String get comingsoon;
 }
 
 class _AppLocalizationsDelegate

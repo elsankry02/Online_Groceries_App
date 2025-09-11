@@ -6,6 +6,7 @@ import 'package:online_groceries_app/core/constants/app_colors.dart';
 import 'package:online_groceries_app/core/constants/app_images.dart';
 import 'package:online_groceries_app/core/constants/app_svgs.dart';
 import 'package:online_groceries_app/core/extension/extension.dart';
+import 'package:online_groceries_app/core/router/router.dart';
 
 @RoutePage()
 class WelcomePage extends StatelessWidget {
@@ -38,7 +39,7 @@ class WelcomePage extends StatelessWidget {
               textAlign: TextAlign.center,
               context.kAppLocalizations.getyourgroceriesinasfastasonehour,
               style: context.kTextTheme.titleMedium!.copyWith(
-                color: AppColors.kGrey,
+                color: AppColors.kConversion,
                 fontWeight: FontWeight.w500,
               ),
             ),
@@ -49,10 +50,10 @@ class WelcomePage extends StatelessWidget {
                 color: AppColors.kWhite,
               ),
               backGroungColor: AppColors.kGreen,
-              borderRadius: BorderRadius.circular(19),
+              borderRadius: BorderRadius.circular(context.height * 0.019),
               margin: EdgeInsets.symmetric(horizontal: context.height * 0.030),
-              padding: EdgeInsets.symmetric(vertical: context.height * 0.024),
-              onTap: () {},
+              padding: EdgeInsets.symmetric(vertical: context.height * 0.020),
+              onTap: () => context.router.push(LoginRoute()),
             ),
           ],
         ),
