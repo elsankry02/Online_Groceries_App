@@ -5,6 +5,6 @@ class AccountPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(body: Center(child: Text("AccountPage")));
+    return Center(child: Text("AccountPage"));
   }
 }
