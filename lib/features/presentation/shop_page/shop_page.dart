@@ -7,6 +7,8 @@ class ShopPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(child: Text("ShopPage"));
+    return ListView(children: [
+      ],
+    );
   }
 }

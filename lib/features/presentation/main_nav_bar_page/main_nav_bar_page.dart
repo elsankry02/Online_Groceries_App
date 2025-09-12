@@ -16,6 +16,7 @@ class MainNavBarPage extends StatefulWidget {
 }
 
 class _MainNavBarPageState extends State<MainNavBarPage> {
+  int currentIndex = 0;
   List<Widget> widgets = [
     ShopPage(),
     ExplorePage(),
@@ -23,7 +24,6 @@ class _MainNavBarPageState extends State<MainNavBarPage> {
     FavouritePage(),
     AccountPage(),
   ];
-  int currentIndex = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
