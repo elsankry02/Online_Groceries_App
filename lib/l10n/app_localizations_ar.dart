@@ -68,4 +68,28 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get comingsoon => 'قريباً';
+
+  @override
+  String get searchstore => 'ابحث في المتجر';
+
+  @override
+  String get shop => 'تسوق';
+
+  @override
+  String get explore => 'استكشف';
+
+  @override
+  String get cart => 'عربة التسوق';
+
+  @override
+  String get favourite => 'المفضلة';
+
+  @override
+  String get account => 'الحساب';
+
+  @override
+  String get exclusiveoffer => 'عرض حصري';
+
+  @override
+  String get seeall => 'عرض الكل';
 }

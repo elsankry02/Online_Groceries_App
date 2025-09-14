@@ -19,9 +19,17 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
+  bool showPass = false;
   final emailController = TextEditingController();
   final passWordController = TextEditingController();
-  bool showPass = false;
+
+  @override
+  void dispose() {
+    emailController.dispose();
+    passWordController.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -63,12 +71,18 @@ class _LoginPageState extends State<LoginPage> {
               // Email
               CustomTextformfield(
                 labelText: context.kAppLocalizations.email,
+                labelStyle: context.kTextTheme.titleMedium!.copyWith(
+                  color: AppColors.kGrey,
+                ),
                 controller: emailController,
               ),
               SizedBox(height: context.height * 0.030),
               // Password
               CustomTextformfield(
                 labelText: context.kAppLocalizations.password,
+                labelStyle: context.kTextTheme.titleMedium!.copyWith(
+                  color: AppColors.kGrey,
+                ),
                 controller: passWordController,
                 obscureText: showPass ? false : true,
                 suffixIcon: GestureDetector(

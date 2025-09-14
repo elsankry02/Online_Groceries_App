@@ -25,6 +25,13 @@ class _SignupPageState extends State<SignupPage> {
   final userNameController = TextEditingController();
   final passWordController = TextEditingController();
   bool showPass = false;
+  @override
+  void dispose() {
+    emailController.dispose();
+    userNameController.dispose();
+    passWordController.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -67,18 +74,27 @@ class _SignupPageState extends State<SignupPage> {
               // username
               CustomTextformfield(
                 labelText: context.kAppLocalizations.username,
+                labelStyle: context.kTextTheme.titleMedium!.copyWith(
+                  color: AppColors.kGrey,
+                ),
                 controller: userNameController,
               ),
               SizedBox(height: context.height * 0.030),
               // Email
               CustomTextformfield(
                 labelText: context.kAppLocalizations.email,
+                labelStyle: context.kTextTheme.titleMedium!.copyWith(
+                  color: AppColors.kGrey,
+                ),
                 controller: emailController,
               ),
               SizedBox(height: context.height * 0.030),
               // Password
               CustomTextformfield(
                 labelText: context.kAppLocalizations.password,
+                labelStyle: context.kTextTheme.titleMedium!.copyWith(
+                  color: AppColors.kGrey,
+                ),
                 controller: passWordController,
                 obscureText: showPass ? false : true,
                 suffixIcon: GestureDetector(

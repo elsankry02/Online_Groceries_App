@@ -69,4 +69,28 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get comingsoon => 'COMING SOON';
+
+  @override
+  String get searchstore => 'Search Store';
+
+  @override
+  String get shop => 'Shop';
+
+  @override
+  String get explore => 'Explore';
+
+  @override
+  String get cart => 'Cart';
+
+  @override
+  String get favourite => 'Favourite';
+
+  @override
+  String get account => 'Account';
+
+  @override
+  String get exclusiveoffer => 'Exclusive Offer';
+
+  @override
+  String get seeall => 'See all';
 }

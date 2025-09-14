@@ -217,6 +217,54 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'COMING SOON'**
   String get comingsoon;
+
+  /// No description provided for @searchstore.
+  ///
+  /// In en, this message translates to:
+  /// **'Search Store'**
+  String get searchstore;
+
+  /// No description provided for @shop.
+  ///
+  /// In en, this message translates to:
+  /// **'Shop'**
+  String get shop;
+
+  /// No description provided for @explore.
+  ///
+  /// In en, this message translates to:
+  /// **'Explore'**
+  String get explore;
+
+  /// No description provided for @cart.
+  ///
+  /// In en, this message translates to:
+  /// **'Cart'**
+  String get cart;
+
+  /// No description provided for @favourite.
+  ///
+  /// In en, this message translates to:
+  /// **'Favourite'**
+  String get favourite;
+
+  /// No description provided for @account.
+  ///
+  /// In en, this message translates to:
+  /// **'Account'**
+  String get account;
+
+  /// No description provided for @exclusiveoffer.
+  ///
+  /// In en, this message translates to:
+  /// **'Exclusive Offer'**
+  String get exclusiveoffer;
+
+  /// No description provided for @seeall.
+  ///
+  /// In en, this message translates to:
+  /// **'See all'**
+  String get seeall;
 }
 
 class _AppLocalizationsDelegate
